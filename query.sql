@@ -1,4 +1,4 @@
-select * from "Salaries"
+
 
 --1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 select e.emp_no, e.last_name, e.first_name, e.sex, s.salary
@@ -64,6 +64,9 @@ select last_name, count(last_name)
 from "Employees"
 group by last_name 
 order by last_name desc;
+
+
+
 
 
 
